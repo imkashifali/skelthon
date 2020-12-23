@@ -4,11 +4,11 @@ import DiscordLoader from "./Modules/dashboard/circle";
 import GoogleMap from "./Modules/builder/test";
 
 import TableLoader from "./CommonComponents/listing";
+import Event from "./CommonComponents/Event";
 
 import DesginForGraphs from "./Modules/Last/index";
 import XYChart from "./Modules/Last/map";
 import PieChart from "./Modules/Last/chart";
-
 
 import Headers from "./Modules/optimize/firstSection";
 import SecondLevel from "./Modules/optimize/secondSection";
@@ -23,23 +23,23 @@ import YoutubeFresh from "./Modules/builder/image";
 function App() {
   return (
     <div>
-      <DesginForGraphs />
-      {/* <PieChart/> */}
-      {/* <h1>Dashboard Page</h1>   */}
-      {/* <Animations />
-
-      <DiscordLoader /> 
-      <TableLoader />  */}
+      {/* <DesginForGraphs /> */}
+      {/* <PieChart/>  */}
+      {/* <h1>Dashboard Page</h1> */}
+      {/* <Animations /> */}
+      <Event />
+      {/* <DiscordLoader />  */}
+      {/* <TableLoader />   */}
       {/* <h1>Optimize Page</h1>  */}
-      {/* {/* <Headers /> */}
-      {/* <SecondLevel />
-      <Posting />
-      <DataTable /> */} 
-      {/* <h1>builder page</h1>  */}
-      {/* <BuliderHeader /> */}
-      {/* <YoutubeFresh /> */}
-      {/* <FormData />  */}
-      {/*<Invoice/> */}
+      {/* <Headers />
+      <SecondLevel /> */}
+      {/* <Posting /> */}
+      {/* <DataTable />
+      <h1>builder page</h1>
+      <BuliderHeader />
+      <YoutubeFresh />
+      <FormData />
+      <Invoice /> */}
     </div>
   );
 }
